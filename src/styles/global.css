@@ -1,0 +1,34 @@
+
+body {
+	background-color: black;
+}
+
+.main {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+
+}
+
+.idx {
+	border-radius: 17px;
+	padding: 10px;
+}
+
+a {
+	margin: 10px;
+}
+
+.zoom {
+	border-radius: 3%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+@media screen and (max-width: 420px) {
+	.zoom {
+		width: 100%;
+	}
+}
