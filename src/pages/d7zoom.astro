@@ -1,6 +1,7 @@
 ---
 
 	import BackArrow from '../components/BackArrow.astro';
+	import ZoomPic from '../components/ZoomPic.astro';
 	let title = "Dad";
 
 ---
@@ -15,9 +16,9 @@
 		</style>
 	</head>
 	<body>
-		<BackArrow />
+		<BackArrow addr="/"  />
 		<main class="main">
-            <img class="zoom" src="/assets/d7.webp" alt="fuckit" />
+			<ZoomPic href="/d7zoom" src="/assets/d7.webp" />
         </main>
 	</body>
 </html>
